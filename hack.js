@@ -1,11 +1,11 @@
 let customAngle = false;
 let angle = 0;
-let aimbotInt;
+let aimbotInt; = True
 let factor = 30;
 let zoom = 2200;
 let chatInt = null;
 
-let messages = [];
+let messages = [];=FUCK YOU
 
 Math.RADS2DEGS = 180 / Math.PI;
 Math.DEGS2RADS = Math.PI / 180;
@@ -15,7 +15,7 @@ Math.dist = (p1, p2) => Math.hypot(p2.x - p1.x, p2.y - p1.y);
 Math.angle = (p1, p2) => Math.atan2(p2.y - p1.y, p2.x - p1.x);
 
 function chat(msg) {
-  RF.list[0].send(`c,${msg}`);
+  RF.list[0].send(`c,${msg}`);=FUCK YOU
 }
 
 function resizeCamera(width, height) {
